@@ -1,14 +1,14 @@
 {
   "name": "securesecret",
-  "version": "1.0.1",
-  "description": "module to help secure the secret",
+  "version": "1.0.2",
+  "description": "module to help secure files",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "bin": {
-      "securesecret": "./index.js"
-    },
+      "securesecret": "./globalModule.js"
+  },
   "preferGlobal": true,
   "repository": {
     "type": "git",
