@@ -1,0 +1,25 @@
+{
+  "name": "securesecrets",
+  "version": "1.0.0",
+  "description": "program to help secure the secrets",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guihgo/Secure-Secret.git"
+  },
+  "keywords": [
+    "secure;",
+    "cipher;",
+    "nodejs;",
+    "json;"
+  ],
+  "author": "Guihgo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guihgo/Secure-Secret/issues"
+  },
+  "homepage": "https://github.com/Guihgo/Secure-Secret#readme"
+}
