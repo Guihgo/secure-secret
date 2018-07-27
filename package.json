@@ -1,6 +1,6 @@
 {
   "name": "securesecret",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "module to help secure files",
   "main": "index.js",
   "scripts": {

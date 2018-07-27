@@ -15,7 +15,7 @@ module to help secure files using nodejs
 
  "param4": filname (path) to encript or decript (required)
 
- "param5": output encripted filname (path) (optional)
+ "param5": output encripted filname (path) (optional) | Dafault: "secret.encripted"
 
  ## Checkout Cipher Class for help
  [crypto -> class cipher](https://nodejs.org/api/crypto.html#crypto_class_cipher)

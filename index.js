@@ -2,18 +2,25 @@ const crypto = require('crypto');
 const fs = require('fs');
 
 class SecureSecret {
-  constructor() {
+  constructor() {}
+  cli(){
     var params = [
-      {nome: "<Algorithms>", valor: process.argv[2] || null},
+      {nome: "<Algorithm>", valor: process.argv[2] || null},
       {nome: "<Password>", valor: process.argv[3] || null},
-      {nome: "<0: encript | 1: decript>", valor: process.argv[4] || null},
+      {nome: "<0: encript || 1: decript>", valor: process.argv[4] || null},
       {nome: "<Input file to encript or decrypt>", valor: process.argv[5] || null},
-      {nome: "[Output file encripted] (Optinal)", valor: process.argv[6] || "secret.encripted"},
+      {nome: "[Output file encripted]", valor: process.argv[6] || "secret.encripted"},
     ];
     var paramsComErro = [];
+    var help = "securesecret ";
     params.forEach(function(param){
+      help += " "+param.nome;
       if(param.valor==null) { paramsComErro.push(param); }
     });
+    if(process.argv[2]=="--help") {
+      console.log(help);
+      paramsComErro = [];
+    }
     paramsComErro.forEach(function(param){
       console.error("Param "+param.nome+" not found");
     });
