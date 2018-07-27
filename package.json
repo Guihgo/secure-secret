@@ -1,7 +1,7 @@
 {
-  "name": "securesecrets",
+  "name": "securesecret",
   "version": "1.0.0",
-  "description": "program to help secure the secrets",
+  "description": "module to help secure the secret",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
@@ -11,10 +11,10 @@
     "url": "git+https://github.com/Guihgo/Secure-Secret.git"
   },
   "keywords": [
-    "secure;",
-    "cipher;",
-    "nodejs;",
-    "json;"
+    "secure",
+    "secret",
+    "cipher",
+    "nodejs"
   ],
   "author": "Guihgo",
   "license": "MIT",
