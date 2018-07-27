@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node index.js"
   },
+  "bin": {
+      "securesecret": "./index.js"
+    },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Guihgo/Secure-Secret.git"
