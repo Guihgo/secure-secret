@@ -1,14 +1,24 @@
 # secure-secret
-module to help secure the secrets using nodejs
+module to help secure files using nodejs
 
-## running
+## installing and running  (npm coming soon)
 1. Clone repository
 2. In directory runs: 
-` node index.js <param1> <param2>`
+` node index.js <param1> <param2> <param3> <param4>`
 
- "param1": Cipher Algorithms
+ "param1": Cipher Algorithms (required)
+
+ "param2": Password to encript or decript (required)
  
- "param2": password to encript
+ "param3": 0 to enctipt || 1 to decript (required)
+ 
+ "param4": filname (path) to encript or decript (required)
+ 
+ "param5": output encripted filname (path) (optional)
+ 
+ ## Checkout Cipher Class for help
+ [crypto -> class cipher](https://nodejs.org/api/crypto.html#crypto_class_cipher)
+ 
 ### Cipher Algorithms
 * aes-128-cbc
 * aes-128-ecb
