@@ -4,7 +4,7 @@ module to help secure files using nodejs
 ## installing and running  (npm coming soon)
 1. Clone repository
 2. In directory runs: 
-` node index.js <param1> <param2> <param3> <param4>`
+` node index.js <param1> <param2> <param3> <param4> <param5>`
 
  "param1": Cipher Algorithms (required)
 
