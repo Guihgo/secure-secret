@@ -17,6 +17,8 @@ Helper for secure files using native module NodeJS::crypto
 
  "param5": Encrypted/Decrypted output file (path) (required)
 
+ "param6": Output/Input encoding: hex | binary | base64 (optional)
+
 ### Cipher Algorithms
 * aes-128-cbc
 * aes-128-ecb
