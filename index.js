@@ -83,7 +83,6 @@ class SecureSecretV2 {
       console.error(`Encoding not supported. Supported encoding: `, supportedEncodings);
       return
     }
-    console.log("params[5].valor",params[5].valor)
 
     if (params[2].valor == 0) {
       fs.writeFileSync(params[4].valor, this.encrypt(params[0].valor, params[1].valor, fs.readFileSync(params[3].valor), params[5].valor));
