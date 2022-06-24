@@ -1,10 +1,10 @@
 {
   "name": "securesecret",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "module to help secure files",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node globalModule.js @v1 aes-256-ecb teste 1 teste.enc teste_.txt"
   },
   "bin": {
       "securesecret": "./globalModule.js"
